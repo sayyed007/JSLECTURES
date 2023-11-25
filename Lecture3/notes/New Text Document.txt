@@ -1,0 +1,46 @@
+Greetings, budding sorcerers! Today, we're uncovering the mystical art of JavaScript comments. Think of comments as secret notes you leave to yourself or fellow wizards to understand the magic spells in your code.
+
+Slide 1: What are Comments?
+
+In the world of coding, comments are lines that the computer ignores. They are there solely for the eyes of the coder, helping them understand the code's secrets.
+
+Slide 2: Types of Comments
+
+JavaScript has two types of comments: single-line and multi-line. It's like leaving quick notes or crafting detailed scrolls.
+
+Example Code 1: Single-Line Comment
+// This is a single-line comment
+let spell = 'Abracadabra'; // Another comment after a statement
+Here, anything after // is a comment. It's like whispering a quick note to yourself.
+
+Slide 3: Using Single-Line Comments
+
+Single-line comments are great for brief explanations or reminders.
+let wand = 'Oak'; // Remember, oak wands are good for transfiguration spells
+Example Code 2: Multi-Line Comment
+
+/*
+  This is a multi-line comment.
+  You can write as much as you want!
+  It's like creating a magical scroll.
+*/
+let potion = 'Invisibility'; // Another comment after a statement
+Here, anything between /* and */ is a comment. It's like penning a detailed scroll of wisdom.
+
+Slide 4: Using Multi-Line Comments
+
+Multi-line comments are perfect for longer explanations or sectioning off parts of your code.
+/*
+  This section is for defining potions.
+  Each potion has unique properties.
+*/
+let potion1 = 'Polyjuice';
+let potion2 = 'Felix Felicis';
+Slide 5: Benefits of Comments
+
+Why bother with comments? They are like breadcrumbs for your future self or others who read your code. They make understanding spells much easier.
+
+Example Code 3: Benefits of Comments
+let spell = 'Expecto Patronum'; // This spell conjures a protective magical guardian
+Here, the comment explains what the spell does, making it easier to remember later.
+

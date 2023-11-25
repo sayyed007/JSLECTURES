@@ -1,0 +1,27 @@
+Hello, young wizards! Today, we're going to learn how to make our JavaScript spells talk to us and the world. It's like teaching our computer to say and show things.
+
+Slide 1: Talking to Users with alert()
+
+Imagine you have a messenger bird. In JavaScript, we have alert(), our messenger spell.
+let message = 'Hello, wizards!';
+alert(message);
+Here, alert(message); makes a message box pop up on our magical screen, saying 'Hello, wizards!'
+
+Slide 2: Whispering to Ourselves with console.log()
+
+Now, think of console.log() as our magical diary. It quietly writes down our thoughts.
+let potion = 'Invisibility';
+console.log('Brewing potion:', potion);
+Here, console.log('Brewing potion:', potion); secretly notes in our magical diary that we're brewing the potion of invisibility.
+
+Slide 3: Writing on the Magic Scroll with document.write()
+
+Our webpage is like a magical scroll. With document.write(), we can write directly on it.
+document.write('Magical incantation: Expelliarmus!');
+Here, document.write('Magical incantation: Expelliarmus!'); writes the message directly on our magical scroll.
+
+Slide 4: Changing Special Parts with innerHTML
+
+Imagine a magic book with different chapters. With innerHTML, we can change a specific chapter.
+document.getElementById('spellText').innerHTML = 'Leviosa!';
+Here, document.getElementById('spellText').innerHTML = 'Leviosa!'; changes the content of a special chapter called 'spellText.'

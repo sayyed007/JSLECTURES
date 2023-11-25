@@ -1,0 +1,37 @@
+Hello future coders! Today, we're diving into the world of JavaScript statements. Think of these like instructions you give to a computer, step by step, to make it do amazing things on a webpage.
+
+Slide 1: What are JavaScript Statements?
+
+Okay, first things first. In the magical land of coding, a statement is a command or a set of instructions. It's like telling the computer to do something specific.
+
+Slide 2: Writing Our First Statement
+
+Now, imagine we're writing a story for the computer. Each line is a sentence, or in coding terms, a statement. Let's start with a simple one.
+
+Example Code 1: Greeting Statement
+// This is a comment, just for us to read
+alert('Hello, wizards of the web!');
+Here, we've written a statement using the alert function. It's like telling the computer, "Hey, show a message saying 'Hello, wizards of the web!'"
+
+Slide 3: The Semicolon - End of a Statement
+
+Think of the semicolon (;) like a full stop at the end of a sentence. It tells the computer, "This is the end of my instruction."
+
+Example Code 2: Adding a Semicolon
+alert('Hello, wizards of the web!'); // Don't forget the magic semicolon!
+Slide 4: Multiple Statements
+
+You can have many statements, one after the other. It's like giving the computer a to-do list.
+
+Example Code 3: Multiple Statements
+alert('Get ready for some magic!'); // Statement 1
+alert('JavaScript is awesome!');    // Statement 2
+Here, we have two statements. The computer reads one, then the next.
+
+Slide 5: Comments - Your Personal Notes
+
+Sometimes, we want to write notes to ourselves or others who read our code. We use comments for that.
+
+Example Code 4: Adding Comments
+// This is a comment
+alert('Learning JavaScript is fun!'); // This is also a comment

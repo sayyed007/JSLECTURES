@@ -1,0 +1,89 @@
+Hello future coders! Today, we're going to learn how to sprinkle some JavaScript magic into our HTML pages. It's like adding secret ingredients to make our web pages come alive!
+
+Slide 1: What is JavaScript?
+
+Just to recap, JavaScript is the language we use to make our websites do cool things. It's the behind-the-scenes magician that adds interactivity and fun to our pages.
+
+Slide 2: Adding JavaScript to HTML
+
+Alright, now let's talk about how we bring JavaScript into the HTML party.
+
+Slide 3: The Script Tag
+
+Imagine you have a magic wand. In HTML, we use something called the <script> tag to tell the computer, "Hey, get ready for some JavaScript magic!"
+
+Example Code: Your First JavaScript Spell
+
+Open your enchanted code book and write this:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adding JavaScript</title>
+  <!-- Here's our script tag -->
+  <script>
+    // Our magical JavaScript code goes here
+    alert('Welcome to the world of coding!');
+  </script>
+</head>
+<body>
+  <!-- The rest of your HTML content goes here -->
+</body>
+</html>
+This tiny script makes a pop-up appear on the webpage saying, "Welcome to the world of coding!"
+
+Slide 4: Where to Put the Script Tag
+
+You might be wondering, "Does it matter where I put the <script> tag?" Yes, it does! It's like telling your friend a joke at the right time for the maximum laugh.
+
+You can put it in the <head> section if your magic spell needs to happen as soon as the page starts.
+
+You can put it in the <body> section if your magic is part of the show as the page loads.
+
+Example Code: Placing the Script in the Body
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adding JavaScript</title>
+</head>
+<body>
+  <!-- Our script is here in the body -->
+  <script>
+    alert('Magic happens in the body!');
+  </script>
+  <!-- The rest of your HTML content goes here -->
+</body>
+</html>
+
+Creating an External JavaScript File
+
+Imagine our JavaScript code is a spell written in a book. Let's create a new file and name it something like magic.js. This ".js" extension tells the computer that it's a JavaScript file.
+
+Example Code 1: Creating magic.js
+// magic.js
+alert('Welcome to the external magic book!');
+
+Linking the External File
+
+Now, we need to tell our HTML where to find this magic book. We use the <script> tag again, but this time, instead of writing the spell inside, we point to our external magic file.
+
+Example Code 2: Linking magic.js to HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>External JavaScript</title>
+  <!-- Linking to our external magic book -->
+  <script src="magic.js"></script>
+</head>
+<body>
+  <!-- The rest of your HTML content goes here -->
+</body>
+</html>
+Benefits of External Files
+
+Why bother with external files? It makes your code cleaner, like having different sections in your spellbook. Plus, if you have many pages, you can reuse the same spells without writing them over and over.
